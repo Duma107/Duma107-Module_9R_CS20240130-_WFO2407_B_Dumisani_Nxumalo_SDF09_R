@@ -1,63 +1,63 @@
-# [SDF09] Project Brief: Blackjack Game on GitHub
+# Blackjack Game
 
-In this project, you will dive into creating a Blackjack game, a popular card game, using Scrimba. By the end of this course, you'll have built a fully functional game and deepened your understanding of JavaScript, including arrays, loops, and objects. Additionally, you'll be guided through basic best practices for mini-game development and user experience enhancement.
+Welcome to the Blackjack Game! This simple web-based game allows you to play Blackjack against the house. The game is built using HTML, CSS, and JavaScript.
 
-### Project Requirements
+## Table of Contents
 
-- Setup up your own Starter Code SDF05 Repo
-- Code along in VSCode with Scrimba
-- Build and customise your version of the Blackjack game.
-- Ensure the game operates smoothly and maintains a consistent style.
-- Submit your GitHub Repo link of your completed BlackJack Game to the LMS on the SDF05 Project Tab
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [CSS Styling](#css-styling)
+- [JavaScript Functionality](#javascript-functionality)
+- [Contributing](#contributing)
+- [License](#license)
 
-![alt text](blackjack.png)
+## Installation
+
+1. Clone the repository to your local machine:
+   
+    git clone https://github.com/yourusername/blackjack-game.git
+  
+2. Navigate to the project directory:
+   
+   cd blackjack-game
+   
+4. Open `index.html` in your web browser to start the game.
+
+## Usage
+
+1. Click the "Start Game" button to begin.
+2. Click "New Card" to draw additional cards.
+3. Try to get as close to 21 without going over. If you hit 21, you win with Blackjack! If you go over 21, you lose.
+
+## Code Overview
+
+### HTML
+
+The HTML file contains the structure of the game, including buttons for starting the game and drawing new cards, and elements to display messages, the sum of cards, and the player's cards.
+
+### CSS Styling
+
+The CSS file styles the game to make it visually appealing. Key styles include:
+
+- Body font and background settings
+- Centering content with `.bg-image` and `#centered-section`
+- Styling for the header, message element, and buttons
 
 
-# Code Along with the Blackjack Game in VSCode
 
-This guide will walk you through the process of forking the Blackjack game starter code from GitHub, and then coding along with Scrimba's Blackjack game course using Visual Studio Code (VSCode). By the end of this guide, you will have a local development environment set up to work on your Blackjack game project.
+### JavaScript Functionality
 
-## Step 1: Fork the Repository 
+The JavaScript file contains the logic of the game, including functions for starting the game, drawing new cards, and rendering the game state.
 
-Forking allows you to have a personal copy of the project on their GitHub account, which you can then clone to your local machine, make changes, commit, and push back to your forked version without affecting the original repository.
 
-1. **Navigate to the Repository:** Go to the SDF05 GitHub repository. Look for a button labeled **Fork** in the top-right corner of the page.
-2. **Fork the Repository:** Click the **Fork** button. This creates a copy of the repository in your own GitHub account, allowing you to make changes without affecting the original code.
+## Contributing
 
-### Step 2: Clone Your Forked Repository
-1. On your forked repository page, click the **Code** button and copy the URL under "Clone with HTTPS".
-2. **Open** Visual Studio Code (VSCode) and access the terminal (Terminal > New Terminal).
-3. Type `git clone`, paste the URL you copied, and press **Enter**. This clones the repository to your local machine.
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## Step 3: Open the Project in VSCode
+## License
 
-1. **Open Folder:** In VSCode, go to **File > Open Folder**.
-2. **Select the Project Folder:** Navigate to the location where you cloned the repository, select the folder, and click **Open**. Now, you should see the project files in the VSCode sidebar.
-## Step 4: Code Along with Scrimba
+This project is licensed under the MIT License.
 
-The course spans roughly two and a half hours. Completion of all 54 lessons is mandatory.
 
-1. **Access the Scrimba Course:** Open the [Scrimba's Blackjack course](https://scrimba.com/playlist/p3py7U7) in your web browser.
-2. **Follow Along:** As you progress through the Scrimba lessons, switch back to VSCode to apply what you've learned to your local project files.
-3. **Save Your Work:** Regularly save your files in VSCode by pressing **Ctrl+S** (Windows/Linux) or **Cmd+S** (Mac).
-
-## Step 5: Test Your Game Locally
-
-1. **Open the HTML File:** Right-click the `index.html` file in the VSCode sidebar and select **Open with Live Server** if you have the [Live Server extension]([Live Server Extension for Visual Studio Code | Full Tutorial (youtube.com)](https://www.youtube.com/watch?v=_Tl-6HeV0Rc&t=269s)) installed. Alternatively, you can open the file in your browser by navigating to the file location.
-2. **Test the Game:** Interact with your game in the browser to test its functionality. Make adjustments in VSCode as needed.
-
-## Step 6: Commit and Push Changes 
-
-Once you are done and you wish to update your GitHub fork with the changes:
-
-1. After making changes, **commit** them to your local repository. Use commands like `git add .`, `git commit -m "description of changes"`, and `git push` to push changes to your forked repository on GitHub.
-
-## Step 7: Submit Your Project
-
-Once you've completed and tested your Blackjack game:
-
-1. **Generate a Public Link:** If you've pushed your project to GitHub, your repository URL is what you'll need. 
-2. **Submit on LMS:** Submit your project on the Learning Management System (LMS).
-
-### Happy Coding!
-Dive into game development with this project. Enjoy learning, applying your knowledge, and overcoming challenges along the way!
+Authored by Dumisani Nxumalo.
